@@ -1,0 +1,259 @@
+/* 
+CSS Guide
+1. General Style Rules
+2. Main Navigation
+3. Footer
+4. Custom Queries
+5. Tablet Queries
+6. Desktop Queries
+7. Product Page
+ */
+
+ /* General Style Rules */
+
+ header, main, footer {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+ }
+
+
+  body, p, h1, h2, h3, h4, h5 {
+   margin: 0px; 
+   padding: 0px;
+} 
+
+ p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 13px;
+ }
+
+ ul li {
+    list-style: none;
+ }
+
+ #form {
+    margin-bottom: 50px;
+ }
+
+
+
+
+
+
+
+ /*  Main Navigation */
+
+ #search {
+    margin-top: 20px;
+ }
+
+ #search a {
+    text-decoration: none;
+ }
+ 
+
+ #main-nav ul li a {
+    text-decoration: none;
+    }
+
+
+    input {
+            width: 60vw;
+            border-radius: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            padding: 12px;
+        }
+
+    textarea {
+        width: 60vw;
+        height: 30vh;
+        border-radius: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        padding: 12px;
+    }
+
+    #form {
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    /* Footer */
+
+    #footer-list ul li {
+        margin-bottom: 10px;
+    }
+
+    #footer-nav ul li a {
+        text-decoration: none;
+    }
+
+    #copyright {
+        margin-top: 60px;
+    }
+
+ /*  Tablet Queries */
+
+ @media screen and (min-width: 768px) {
+
+
+    #main-nav ul li {
+    display: inline;
+    }
+
+    #burger-con {
+        position: absolute;
+    }
+
+    #burger-con ul {
+      margin-top: 35px;
+    }
+
+    #burger-con li {
+        margin-left: 10px;
+    }
+
+    #search {
+        margin-left: 40px;
+    }
+
+        h2 {
+        font-size: 25px;
+        line-height: 22px;
+    }
+
+        p {
+            font-size: 17px;
+        }
+
+       #footer-list {
+        justify-items: left;
+       }
+
+       #product1 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+       }
+
+       #products2 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+       }
+
+       #product3 {
+        margin-bottom: 70px;
+       }
+
+       #product4 {
+        margin-bottom: 70px;
+       }
+
+       #products p a {
+         margin-left: 43px;
+       }
+ }
+
+
+ /* Desktop Queries */
+
+ @media screen and (min-width: 1200px) {
+
+    #main-nav ul li {
+    display: inline;
+    }
+
+        h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+        ul li a {
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 17px;
+        }
+
+       #search {
+        margin-left: 40px;
+    }
+
+        #burger-con li {
+        margin-left: 10px;
+    }
+
+     #products p a {
+    text-decoration: none;
+    color: white;
+ }
+
+ #products p a:hover {
+    color: red;
+ }
+
+ #products p a { 
+   margin-left: 150px;
+ }
+
+ 
+
+ }
+
+ /* Product Page */
+
+ #products {
+    margin-top: 30px;
+ }
+
+ #products h3 {
+    margin-top: 60px;
+ }
+
+ #product1 {
+    
+    height: 300px;
+ }
+
+ #more1 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product2 {
+    margin-top: 30px;
+    height: 300px;
+ }
+
+ #more2 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product3 {
+    margin-top: 30px;
+    height: 300px;
+ }
+
+ #more3 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product4 {
+    margin-top: 30px;
+    height: 300px;
+    margin-bottom: 190px;
+ }
+
+ #more4 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+ #products p a {
+    text-decoration: none;
+    color: white;
+ }
