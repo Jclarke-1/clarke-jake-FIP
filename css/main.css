@@ -3,10 +3,12 @@ CSS Guide
 1. General Style Rules
 2. Main Navigation
 3. Footer
-4. Custom Queries
-5. Tablet Queries
-6. Desktop Queries
-7. Product Page
+4. Product Page
+5. Contact Page
+6. Index Page
+7. Custom Queries
+8. Tablet Queries
+9. Desktop Queries
  */
 
  /* General Style Rules */
@@ -35,16 +37,30 @@ CSS Guide
     margin-bottom: 50px;
  }
 
-
-
-
+ .visually-hidden:not(:focus):not(:active) {
+   position: absolute !important; 
+   width: 1px !important; 
+   height: 1px !important; 
+   padding: 0 !important; 
+   margin: -1px !important; 
+   overflow: hidden !important; 
+   clip-path: inset(50%); 
+   white-space: nowrap !important; 
+   border: 0 !important; 
+}
 
 
 
  /*  Main Navigation */
 
+ #sticky-nav {
+   background-color: #CC3333;
+ }
+
  #search {
-    margin-top: 20px;
+    height: 40px;
+    width: 30px;
+    margin-top: 40px
  }
 
  #search a {
@@ -54,6 +70,8 @@ CSS Guide
 
  #main-nav ul li a {
     text-decoration: none;
+    padding: 10px 0 10px 0;
+    color: white;
     }
 
 
@@ -80,19 +98,112 @@ CSS Guide
         margin-top: 20px;
     }
 
+    input[type=submit] {
+      background-color: #F26822;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
     /* Footer */
+
+    #footer-con {
+      background-image: linear-gradient(to bottom,#F26822, #EBB71F);
+    }
+
 
     #footer-list ul li {
         margin-bottom: 10px;
+        padding-top: 15px;
     }
 
-    #footer-nav ul li a {
+    #footer-list ul li a {
         text-decoration: none;
+        color: white;
     }
 
     #copyright {
         margin-top: 60px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
     }
+
+    /* Product Page */
+
+ #products {
+    margin-top: 30px;
+ }
+
+ #products h3 {
+    margin-top: 60px;
+ }
+
+ #product1 {
+    
+    height: 300px;
+ }
+
+ #more1 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product2 {
+    margin-top: 30px;
+    height: 300px;
+ }
+
+ #more2 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product3 {
+    margin-top: 30px;
+    height: 300px;
+ }
+
+ #more3 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+  #product4 {
+    margin-top: 30px;
+    height: 300px;
+    margin-bottom: 190px;
+ }
+
+ #more4 {
+    margin-top: 90px;
+    margin-left: 170px;
+ }
+
+ #products p a {
+    text-decoration: none;
+    color: white;
+ }
+
+ /* Contact Page */
+
+#contact {
+   margin-top: 20px;
+}
+
+#contact h2 {
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+#contact h3 {
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+
+ /* Index Page */
 
  /*  Tablet Queries */
 
@@ -101,6 +212,17 @@ CSS Guide
 
     #main-nav ul li {
     display: inline;
+    }
+
+    #main-nav ul {
+      margin-bottom: 15px;
+    }
+
+    #sticky-nav {
+      background-color: #CC3333;
+      position: sticky;
+      top: 0;
+      z-index: 1;
     }
 
     #burger-con {
@@ -202,58 +324,4 @@ CSS Guide
 
  }
 
- /* Product Page */
-
- #products {
-    margin-top: 30px;
- }
-
- #products h3 {
-    margin-top: 60px;
- }
-
- #product1 {
-    
-    height: 300px;
- }
-
- #more1 {
-    margin-top: 90px;
-    margin-left: 170px;
- }
-
-  #product2 {
-    margin-top: 30px;
-    height: 300px;
- }
-
- #more2 {
-    margin-top: 90px;
-    margin-left: 170px;
- }
-
-  #product3 {
-    margin-top: 30px;
-    height: 300px;
- }
-
- #more3 {
-    margin-top: 90px;
-    margin-left: 170px;
- }
-
-  #product4 {
-    margin-top: 30px;
-    height: 300px;
-    margin-bottom: 190px;
- }
-
- #more4 {
-    margin-top: 90px;
-    margin-left: 170px;
- }
-
- #products p a {
-    text-decoration: none;
-    color: white;
- }
+ 

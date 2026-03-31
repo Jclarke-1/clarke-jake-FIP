@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.84 214.18">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <g id="stopwatch">
+    <g id="search-bar">
+      <path class="cls-1" d="M125.63,142.98l64.13,64.13-64.13-64.13Z"/>
+      <path d="M81.22,0C36.36,0,0,36.36,0,81.22s36.36,81.22,81.22,81.22,81.22-36.36,81.22-81.22S126.07,0,81.22,0ZM80.75,144.69c-34.33,0-62.16-27.83-62.16-62.16s27.83-62.16,62.16-62.16,62.16,27.83,62.16,62.16-27.83,62.16-62.16,62.16Z"/>
+    </g>
+  </g>
+</svg>

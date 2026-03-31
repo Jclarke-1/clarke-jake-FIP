@@ -1,0 +1,20 @@
+Overview of Interactive Properties
+-lightbox pop up when clicking on the more.. option on the product pages for desktop and mobile
+-dropdown for the hamburger menu showing off the entire navigation for mobile with clickable anchor tags
+
+How will it work?/Key Features
+-when the more feature is clicked, a lightbox will overlay the page for the option clicked (ex. orange juice) and it will dynamically display content for the page with Javascript
+-when the hamburger button is clicked it will dynamically display content for mobile, displaying the navigation menu
+
+What will you need?/Architecture
+-event listeners for each button when selected
+-variables and functions to call on
+-dynamic content to be created when the function is called
+-and a close page button for the lightbox
+-navigation created for mobile dynamically with clickable anchor tags to bring you to those pages
+
+Resources/Research (include links)
+-Marco's lightbox lesson using the Marvel build to help me figure out the general process
+https://stackoverflow.com/questions/69570924/make-a-card-burger-menu-dropdown (for general idea)
+-interactive couples resort builds 
+https://www.w3schools.com/howto/howto_js_dropdown.asp (general build idea for the dropdown and overall starting place)
