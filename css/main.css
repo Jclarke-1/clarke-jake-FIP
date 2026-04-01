@@ -57,14 +57,31 @@ CSS Guide
    background-color: #CC3333;
  }
 
+ #main-nav button {
+   background: url(../images/burger.svg) center no-repeat;
+   border: 0px;
+   width: 35px;
+   height: 35px;
+   transition: all .5s ease;
+   margin-top: 15px;
+   margin-bottom: 20px;
+ }
+
+ #main-nav button.expanded {
+   transform: rotate(90deg);
+}
+
+
  #search {
-    height: 40px;
-    width: 30px;
-    margin-top: 40px
+    height: 35px;
+    width: 35px;
+    margin-top: 40px;
+    margin-left: 55px
  }
 
  #search a {
     text-decoration: none;
+    cursor: pointer;
  }
  
 
@@ -74,36 +91,12 @@ CSS Guide
     color: white;
     }
 
-
-    input {
-            width: 60vw;
-            border-radius: 10px;
-            margin: 10px 0;
-            box-sizing: border-box;
-            padding: 12px;
-        }
-
-    textarea {
-        width: 60vw;
-        height: 30vh;
-        border-radius: 10px;
-        margin: 10px 0;
-        box-sizing: border-box;
-        padding: 12px;
+    #logo img {
+      width: 181px;
+      margin-top: 30px;
+      margin-left: 65px;
     }
 
-    #form {
-        margin-right: 30px;
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    input[type=submit] {
-      background-color: #F26822;
-      border: none;
-      color: white;
-      cursor: pointer;
-    }
 
     /* Footer */
 
@@ -203,6 +196,36 @@ CSS Guide
 }
 
 
+
+    input {
+            width: 60vw;
+            border-radius: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            padding: 12px;
+        }
+
+    textarea {
+        width: 60vw;
+        height: 30vh;
+        border-radius: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        padding: 12px;
+    }
+
+
+    input[type=submit] {
+      background-color: #F26822;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    #form-intro p {
+      margin-bottom: 20px;
+    }
+
  /* Index Page */
 
  /*  Tablet Queries */
@@ -227,6 +250,10 @@ CSS Guide
 
     #burger-con {
         position: absolute;
+    }
+
+    #burger-con button {
+      display: none;
     }
 
     #burger-con ul {
@@ -275,6 +302,24 @@ CSS Guide
        #products p a {
          margin-left: 43px;
        }
+
+           input {
+            width: 60vw;
+            border-radius: 10px;
+            margin: 10px 0 10px 0;
+            box-sizing: border-box;
+            padding: 12px;
+        }
+
+    textarea {
+        width: 60vw;
+        height: 30vh;
+        border-radius: 10px;
+        margin: 10px 0 10px 0;
+        box-sizing: border-box;
+        padding: 12px;
+    }
+
  }
 
 
