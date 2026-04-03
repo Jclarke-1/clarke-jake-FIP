@@ -12,3 +12,4 @@ function burgerMenu() {
 
 //Eventlisteners
 button.addEventListener("click", burgerMenu);
+
