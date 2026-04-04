@@ -49,6 +49,10 @@ CSS Guide
    border: 0 !important; 
 }
 
+.hide {
+   display: none;
+}
+
 
 
  /*  Main Navigation */
@@ -393,6 +397,32 @@ nav ul li {
 
  /* Index Page */
 
+ #hero-img {
+   grid-column: 1/-1;
+   grid-row: 1/1;
+   justify-self: center;
+   object-fit: cover;
+   object-position: center;
+   }
+
+   #hero-con .grid-con {
+   grid-column: 2/3;
+   grid-row:1/1;	
+   }
+
+   #hero-heading-con h2 {
+      justify-self: center;
+      margin-top: 57px;
+      background-color: #CC3333;
+      color: white;
+      padding: 25px;
+      border-radius: 19px;
+      display: flex;
+      flex-shrink: 0;
+      width: 425px;
+   }
+
+
  /*  Tablet Queries */
 
  @media screen and (min-width: 768px) {
@@ -490,6 +520,58 @@ nav ul li {
    #product1 p:last-child, #product2 p:last-child, #product3 p:last-child, #product4 p:last-child {
       margin-left: 210px;
    }
+
+         #main-header-con ul li a:hover {
+      color: white;
+      cursor: pointer;
+   }
+
+   #header-nav button {
+      display: none;
+   }
+
+   .hide {
+      display: inline;
+   }
+
+      #search {
+      margin-left: 20px;
+   }
+
+   #logo {
+      margin-left: 30px;
+      display: block;
+   }
+
+   #hero-subheadings{
+      display: block;
+      width: max-content;
+      align-content: space-between;
+      margin-top: 400px;
+   }
+
+   #hero-subheadings a {
+      color: white;
+   }
+
+   #hero-heading-products {
+      background-color: #F26822;
+      padding: 25px 25px 25px 25px;
+      border-radius: 19px;
+      text-align: center;
+      margin-bottom: 25px;
+   }
+
+   #hero-heading-sustainability {
+      background-color: #03592F;
+      padding: 25px 25px 25px 25px;
+      border-radius: 19px;
+   }
+
+    .hide {
+      display: inline;
+   }
+
 
  }
 
