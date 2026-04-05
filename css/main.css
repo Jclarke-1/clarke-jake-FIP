@@ -215,7 +215,7 @@ nav ul li {
    }
 
    #product1 p:last-child {
-      margin-left: 130px;
+      text-align: right;
       margin-bottom: 10px;
       margin-top: 20px;
       margin-right: 10px;
@@ -257,7 +257,7 @@ nav ul li {
    }
 
    #product2 p:last-child {
-      margin-left: 130px;
+      text-align: right;
       margin-bottom: 10px;
       margin-top: 20px;
       margin-right: 10px;
@@ -294,7 +294,7 @@ nav ul li {
    }
 
    #product3 p:last-child {
-      margin-left: 130px;
+      text-align: right;
       margin-bottom: 10px;
       margin-top: 20px;
       margin-right: 10px;
@@ -333,7 +333,7 @@ nav ul li {
    }
 
    #product4 p:last-child {
-      margin-left: 130px;
+      text-align: right;
       margin-bottom: 10px;
       margin-top: 20px;
       margin-right: 10px;
@@ -421,7 +421,8 @@ nav ul li {
       border-radius: 19px;
       display: flex;
       flex-shrink: 0;
-      width: 425px;
+      width: 400px;
+
    }
 
    #flavours-intro {
@@ -443,14 +444,14 @@ nav ul li {
    margin-bottom: 50px;
    }
 
-   #flavour-showcase p {
-   margin-left: 130px;
+   #home-showcase p {
    margin-bottom: 10px;
    margin-top: 20px;
    margin-right: 10px;
+   text-align: right;
    }
 
-   #flavour-showcase p a {
+   #home-showcase p a {
    background-color: #03592F;
    border-radius: 10px;
    text-align: center;
@@ -459,7 +460,7 @@ nav ul li {
    text-decoration: none;
    }
    
-   #flavour-showcase p a:hover {
+   #home-showcase p a:hover {
    background-color: #04B15C;
    color: black;
    border-radius: 10px;
@@ -467,7 +468,6 @@ nav ul li {
    }
 
    #story-con {
-      align-content: center;
       margin-bottom: 90px;
    }
 
@@ -483,7 +483,7 @@ nav ul li {
    #our-story h3 {
       text-align: center;
       margin-top: 30px;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       font-size: 19px;
    }
 
@@ -491,30 +491,26 @@ nav ul li {
       text-align: center;
       padding: 10px 10px 10px 10px;
       margin-bottom: 20px;
+      overflow: hidden;
+   }
+
+   #our-story p:last-child {
+      text-align: right;
    }
 
    #our-story p a {
       text-decoration: none;
       color: white;
       background-color: #F26822;
-      text-align: center;
-      padding: 3px 13px 3px 13px;
+      padding: 13px 13px 13px 13px;
       border-radius: 10px;
-   }
-
-   #orange-more {
-      margin-left: 130px;
-      margin-bottom: 10px;
-      margin-top: 20px;
-      margin-right: 10px;
    }
 
    #our-story p a:hover {
    color: black;
-   border-radius: 10px;
-   text-align: center;  
    background-color: #FF884C;
    }
+
 
 
 
@@ -612,10 +608,6 @@ nav ul li {
       margin-bottom: 40px;
     }
 
-   #product1 p:last-child, #product2 p:last-child, #product3 p:last-child, #product4 p:last-child {
-      margin-left: 210px;
-   }
-
          #main-header-con ul li a:hover {
       color: white;
       cursor: pointer;
@@ -641,8 +633,7 @@ nav ul li {
    #hero-subheadings{
       display: block;
       width: max-content;
-      align-content: space-between;
-      margin-top: 400px;
+      align-content: end;
    }
 
    #hero-subheadings a {
@@ -655,20 +646,23 @@ nav ul li {
       padding: 25px 25px 25px 25px;
       border-radius: 19px;
       text-align: center;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
    }
 
    #hero-heading-products:hover {
-      background-color:#FF884C;
+      background-color: #FF884C;
    }
 
      #hero-heading-products a:hover {
       color: black;  
    }
+
    #hero-heading-sustainability {
       background-color: #03592F;
       padding: 25px 25px 25px 25px;
       border-radius: 19px;
+      margin-bottom: 20px;
+      text-align: center;
    }
 
    #hero-heading-sustainability:hover {
@@ -689,10 +683,9 @@ nav ul li {
    }
 
    
-   #flavour-showcase p {
+   #home-showcase p {
    margin-bottom: 10px;
    margin-top: 10px;
-   margin-left: 210px;
    }
 
    #video {
@@ -705,23 +698,22 @@ nav ul li {
       box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
    }
 
-      #our-story img {
-      height: auto;
+   #our-story img {
+      display: block;
+      float: left;
+      margin-top: 55px;
+      margin-bottom: 55px;
+      padding: 5px;
+      flex-direction: column;
+   }
+
+   #our-story p:not(:orange-more) {
       display: flex;
-      flex-wrap: wrap;
-      border-radius: 6px;
+      flex-direction: column;
    }
 
    #our-story h3 {
-      margin-top: 15px;
-   }
-
-   #our-story p {
-      display: flex;
-   }
-
-   #orange-more {
-      margin-left: 210px;
+      margin-bottom: 55px;
    }
 
 
@@ -795,13 +787,6 @@ nav ul li {
    #product01, #product02, #product03, #product04 {
    margin-bottom: 90px;
    }
-   
-   #flavour-showcase p {
-   margin-left: 180px;
-   }
 
-   #orange-more {
-      margin-left: 290px
-   }
 
 }
