@@ -98,7 +98,6 @@ function fillContent() {
     benefitThree.textContent = flavours[this.dataset.drinkIndex].benefit3;
     benefitThree.classList = "lb_text";
     content.appendChild(benefitThree);
-
 }
 
 //Eventlisteners
