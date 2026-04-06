@@ -345,6 +345,116 @@ nav ul li {
     color: white;
  }
 
+ .lightbox { 
+    width: 100vw; 
+    height: 100vh; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 2;
+    display:none;
+    background-repeat: no-repeat;
+    background-size: 67vh; 
+    background-position: 40px bottom;
+}  
+
+.lightbox:target {
+   display: block;
+   opacity: 1;
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 90%;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.lightbox_close:hover {
+   color: #CC3333;
+}
+
+.lightbox article {
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 600px;
+    color: white;
+}
+
+.lb_heading {
+   font-size: 40px;
+   margin-bottom: 20px;
+   font-family: 'Wellfleet', 'Times New Roman', Times, serif;
+   text-align: center;
+   background-color: #F26822;
+   padding: 10px 0 10px 0;
+   border-radius: 10px;
+}
+
+.lightbox0 {
+   background-image: url("../images/orange/clarke_jake_orangeflavour_q4t8ck/clarke_jake_orangeflavour_q4t8ck_c_scale\,w_322.png");
+}
+
+.lightbox1 {
+   background-image: url("../images/grapefruit/clarke_jake_grapefruit_ew1sk6/clarke_jake_grapefruit_ew1sk6_c_scale\,w_321.png")
+}
+
+.lightbox2 {
+   background-image: url("../images/passionfruit/clarke_jake_passionfruit_xz5v9g/clarke_jake_passionfruit_xz5v9g_c_scale\,w_316.png")
+}
+
+.lightbox3 {
+   background-image: url("../images/pineapple/clarke_jake_pineappleflavour_x0qlkx/clarke_jake_pineappleflavour_x0qlkx_c_scale\,w_317.png")
+}
+
+.lb_subheader {
+   font-size: 28px;
+   text-align: center;
+   background-color: #F26822;
+   border-radius: 10px;
+   padding: 10px 0 10px 0;
+}
+
+.lb_subheader2 {
+   font-size: 25x;
+   text-align: center;
+   background-color: #F26822;
+   padding: 10px 0 10px 0;
+   border-radius: 10px;
+   margin-top: 15px;
+   line-height: 30px;
+}
+
+.lb_subheader3 {
+   font-size: 25x;
+   text-align: center;
+   background-color: #ffffff;
+   padding: 10px 0 10px 0;
+   border-radius: 10px;
+   margin-top: 15px;
+   line-height: 40px;
+   color: black;
+}
+
+.lb_text {
+   line-height: 60px;
+   text-align: center;
+   background-color: #03592F;
+   border-radius: 10px;
+   padding: 10px 0px 10px 0px;
+}
+
+.lb_text:hover {
+   text-align: center;
+   background-color: #EBB71F;
+   border-radius: 10px;
+   padding: 10px 0px 10px 0px;
+   color: black;
+   cursor: pointer;
+}
 
 
  /* Contact Page */
