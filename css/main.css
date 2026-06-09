@@ -513,6 +513,19 @@ nav ul li {
 
  /* Contact Page */
 
+ 
+   #hero-contact-heading-con h2 {
+      justify-self: center;
+      margin-top: 57px;
+      background-color: rgba(3, 89, 47, 0.8);
+      color: white;
+      padding: 25px;
+      border-radius: 19px;
+      display: flex;
+      flex-shrink: 0;
+      flex-direction: column;
+   }
+
 #contact {
    margin-top: 20px;
 }
